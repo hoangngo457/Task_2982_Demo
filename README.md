@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-# flutter_demo_task_2982
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Task_2982_Demo
->>>>>>> 67231d02d9d71ed043e2cdb5de56b782a5ac25d7
+# Mã Task 2982: Thiết kế giao diện app sử dụng flutter
+Sử dụng flutter code giao diện Home Screen, Detail Screen dựa theo link figma đính kèm trong task
