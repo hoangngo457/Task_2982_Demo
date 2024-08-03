@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_demo_task_2982/page/component/BestForYou.dart';
-import 'package:flutter_demo_task_2982/page/component/HomeCategory.dart';
-import 'package:flutter_demo_task_2982/page/component/HomeHeader.dart';
-import 'package:flutter_demo_task_2982/page/component/HomeSearchingBar.dart';
-import 'package:flutter_demo_task_2982/page/component/Recommend.dart';
+import 'package:flutter_demo_task_2982/page/HomeScreen/component/BestForYou.dart';
+import 'package:flutter_demo_task_2982/page/HomeScreen/component/HomeCategory.dart';
+import 'package:flutter_demo_task_2982/page/HomeScreen/component/HomeHeader.dart';
+import 'package:flutter_demo_task_2982/page/HomeScreen/component/HomeSearchingBar.dart';
+import 'package:flutter_demo_task_2982/page/HomeScreen/component/Recommend.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

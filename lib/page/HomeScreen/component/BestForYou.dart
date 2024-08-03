@@ -55,7 +55,6 @@ class BestForYou extends StatelessWidget {
                     height: 3,
                   ),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       const Icon(
                         Icons.airline_seat_individual_suite_rounded,
@@ -74,11 +73,12 @@ class BestForYou extends StatelessWidget {
                       ),
                       Image.asset(
                         "assets/icons/bath.png",
-                        height: 24,
-                        width: 24,
+                        height: 18,
+                        width: 18,
+                        color: const Color.fromARGB(255, 133, 133, 133),
                       ),
                       const Text(
-                        "4 Bathroom",
+                        " 4 Bathroom",
                         style: TextStyle(
                             fontSize: 12,
                             color: Color.fromARGB(255, 133, 133, 133),
@@ -158,8 +158,9 @@ class BestForYou extends StatelessWidget {
                       ),
                       Image.asset(
                         "assets/icons/bath.png",
-                        height: 24,
-                        width: 24,
+                        height: 18,
+                        width: 18,
+                        color: const Color.fromARGB(255, 133, 133, 133),
                       ),
                       const Text(
                         "2 Bathroom",

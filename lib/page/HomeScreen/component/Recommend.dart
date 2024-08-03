@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo_task_2982/page/DetailScreen.dart';
+import 'package:flutter_demo_task_2982/page/DetailScreen/DetailScreen.dart';
 
 class NearFromYou extends StatelessWidget {
   const NearFromYou({super.key});
