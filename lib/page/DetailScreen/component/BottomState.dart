@@ -64,6 +64,7 @@ class BottomState extends StatelessWidget {
               ),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   const Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -83,14 +84,13 @@ class BottomState extends StatelessWidget {
                       Text(
                         "Rp. 2.500.000.000/Year",
                         style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 15,
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                             decoration: TextDecoration.none),
                       ),
                     ],
                   ),
-                  const Spacer(),
                   GestureDetector(
                     onTap: () {
                       print("Press rent now");
@@ -98,7 +98,7 @@ class BottomState extends StatelessWidget {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(12),
                       child: Container(
-                        padding: const EdgeInsets.fromLTRB(22, 13, 22, 13),
+                        padding: const EdgeInsets.fromLTRB(17, 13, 17, 13),
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
                             colors: [
